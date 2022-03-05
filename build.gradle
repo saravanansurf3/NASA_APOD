@@ -29,6 +29,10 @@ ext {
     // Hilt
     hiltVersion = '2.38.1'
 
+    // Room
+    roomVersion = "2.4.0"
+    room_pagination_version = "2.5.0-alpha01"
+
     // Gson
     gsonVersion = '2.8.8'
 
@@ -36,9 +40,13 @@ ext {
     retrofitVersion = '2.9.0'
     okhttpLoggingVersion = '5.0.0-alpha.2'
 
-    // Room
-    roomVersion = "2.4.0"
-    room_pagination_version = "2.5.0-alpha01"
+    // Picasso
+    picassoVersion = "2.8"
+
+    //Testing Lib
+    JunitVersion = "4.+"
+    AndroidXJunitVersion = '1.1.3'
+    EspressoVersion = '3.4.0'
 
     // LiveData
     lifecycleVersion = "2.4.0-alpha03"
