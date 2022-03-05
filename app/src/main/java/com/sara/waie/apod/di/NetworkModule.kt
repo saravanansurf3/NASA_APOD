@@ -1,5 +1,6 @@
 package com.sara.waie.apod.di
 
+import com.sara.waie.apod.network.NetworkRequests
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -11,6 +12,20 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 class NetworkModule {
 
+    @NASAApi
+    @Provides
+    @Singleton
+    fun provideNetworkRequests(): NetworkRequests {
+        return NetworkRequests.create()
+    }
+
+
+    @NASAApiWithLiveDataAdapter
+    @Provides
+    @Singleton
+    fun provideNetworkRequestsWithLiveDataAdapter(): NetworkRequests {
+        return NetworkRequests.createWithLiveDataAdapter()
+    }
 
     @Qualifier
     @Retention(AnnotationRetention.BINARY)

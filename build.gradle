@@ -35,6 +35,13 @@ ext {
     // Retrofit
     retrofitVersion = '2.9.0'
     okhttpLoggingVersion = '5.0.0-alpha.2'
+
+    // Room
+    roomVersion = "2.4.0"
+    room_pagination_version = "2.5.0-alpha01"
+
+    // LiveData
+    lifecycleVersion = "2.4.0-alpha03"
 }
 task clean(type: Delete) {
     delete rootProject.buildDir

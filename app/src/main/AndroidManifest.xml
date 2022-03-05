@@ -11,7 +11,7 @@
         android:name=".ApodApplication"
         android:theme="@style/Theme.APOD">
         <activity
-            android:name=".ApodDetailActivity"
+            android:name=".ui.ApodDetailActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

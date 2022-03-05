@@ -1,9 +1,10 @@
-package com.sara.waie.apod
+package com.sara.waie.apod.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
+import com.sara.waie.apod.R
 import com.sara.waie.apod.databinding.ActivityApodDetailBinding
 import com.sara.waie.apod.vm.ApodDetailViewmodel
 
