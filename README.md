@@ -12,6 +12,6 @@ The APOD application will show the Astronomy Picture of the Day,This will work o
 *Gson
 
 
-# To do(Future enhancement)
+# To do(Future Enhancement)
 Currently the Local cache of image is handled by Picasso (https://square.github.io/picasso/),
 if we store more number of images we need to use our own local storage to do cache.
