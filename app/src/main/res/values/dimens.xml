@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pp_bar_height">400dp</dimen>
+    <dimen name="toolbar_elevation">5dp</dimen>
+    <dimen name="padding_medium">5dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="desc_min_height">555dp</dimen>
+</resources>
